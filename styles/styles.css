@@ -42,3 +42,4 @@ h2.shadowbox {
     background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
 }
 
+#map { height: 300px;}
