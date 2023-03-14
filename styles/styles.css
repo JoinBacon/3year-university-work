@@ -5,7 +5,6 @@
 }
 
 h1, footer{
-    color: red;
     text-align: center;
 }
 
@@ -43,3 +42,11 @@ h2.shadowbox {
 }
 
 #map { height: 300px;}
+
+#chat{
+    height: 100px;
+}
+
+.msg{
+    font-weight: 700;
+}

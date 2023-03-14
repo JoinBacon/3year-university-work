@@ -6,6 +6,10 @@
           href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
           integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
           crossorigin=""/>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+          crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="author" content="Беркович Максим">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,6 +73,18 @@
     <section>
         <h2 class="shadowbox">Мои интересы</h2>
         <p>На данный момент я занимаюсь back-end разрабоктой и хочу развиваться в этом направлении.</p>
+    </section>
+    <section>
+        <script src="../js/chat.js"></script>
+        <div class="container">
+            <div id="blockSendMessage" class="row">
+                <input id="inputMessage" class="form-control col-8 col-sm-9 col-md-8" type="text" placeholder="Сообщений">
+                <button id="btnSend" type="button" class="btn btn-secondary col-4 col-sm-3 col-md-4">Отправить</button>
+            </div>
+        </div>
+        <div id="divMessages" class="message border rounded container">
+
+        </div>
     </section>
 </main>
   <hr>
