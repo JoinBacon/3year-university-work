@@ -43,7 +43,7 @@
   <nav class="menu">
       <ul>
           <li><a href="">Главная</a></li>
-          <li><a href="feedback.html">Обратная связь</a></li>
+          <li><a href="/form">Обратная связь</a></li>
       </ul>
   </nav>
 <main>
@@ -55,7 +55,6 @@
              alt="Логотип Москвоского института электроники и математики">
     </section>
     <div id="map"></div>
-    <script src="../js/map.js"></script>
     <section>
         <h2 class="shadowbox">Образовательная программа</h2><br>
         <p>Моя программа включает <b> три основных блока</b>:</p>
@@ -75,15 +74,13 @@
         <p>На данный момент я занимаюсь back-end разрабоктой и хочу развиваться в этом направлении.</p>
     </section>
     <section>
-        <script src="../js/chat.js"></script>
         <div class="container">
             <div id="blockSendMessage" class="row">
-                <input id="inputMessage" class="form-control col-8 col-sm-9 col-md-8" type="text" placeholder="Сообщений">
+                <input id="inputMessage" class="form-control col-8 col-sm-9 col-md-8" type="text" placeholder="Сообщение">
                 <button id="btnSend" type="button" class="btn btn-secondary col-4 col-sm-3 col-md-4">Отправить</button>
             </div>
         </div>
         <div id="divMessages" class="message border rounded container">
-
         </div>
     </section>
 </main>
@@ -100,5 +97,7 @@
         <img width="100" height="101" src="../images/logo_hse.png" alt="Логотип Высшей школы экономики">
     </footer>
   <hr>
+  <script src="../js/map.js"></script>
+  <script src="../js/chat.js"></script>
 </body>
 </html>

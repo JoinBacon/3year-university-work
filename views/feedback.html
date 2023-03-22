@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Лабораторная работа">
     <link rel="shortcut icon" href="/images/logo_hse.png" type="images/hse_icon">
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+          crossorigin="anonymous">
     <title>Feedback form</title>
     <style>
         a {
@@ -21,15 +25,21 @@
 <header>
     <h1>Форма обратной связи</h1>
 </header>
-<form style="text-align: center" action="#" method="post" name="form">
-    <fieldset>
-        Name: <input id="name" type="text"/><br>
-        Email: <input id="email" type="text" /><br>
-        Header: <input id="header" type="text" /><br>
-        Message:
-        <textarea cols="32" id="message" rows="5"></textarea><br>
-        <input type="submit" value="Отправить" />
-    </fieldset>
+<form method="post">
+    <div class="form-group">
+        <label for="inputName">Name</label>
+        <input type="text" class="form-control col-sm-8" id="inputName" placeholder="Enter name" name="name">
+    </div>
+    <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="text" class="form-control col-sm-8" id="inputEmail" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+        <label for="inputMessage">Your message</label>
+        <input type="text" class="form-control col-sm-8 col-6" id="inputMessage" placeholder="Enter your message"
+               name="message">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 <hr>
 <footer id="footer">
